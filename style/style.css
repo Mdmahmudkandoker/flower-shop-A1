@@ -1,0 +1,246 @@
+/* Common shared Style */
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/* Header section style starts */
+.primary-btn {
+    border-radius: 8px;
+    border: none;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 43px;
+    margin: 30px 0;
+    gap: 10px;
+}
+
+.banner-section {
+    display: flex;
+    background: rgba(229, 84, 115, 0.10);
+    width: 100%;
+    height: 850px;
+    margin-bottom: 150px;
+
+}
+
+.banner-section-left-part {
+    margin: 200px 0px 0px 240px;
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 600;
+
+}
+
+#banner-img {
+    margin: 50px 240px 0 100px;
+}
+
+.banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/*  */
+
+.flowers-card-container,
+.Latest-Deals-container {
+    margin: 0 auto;
+}
+
+.flowers-title,
+.Latest-Deal-title {
+    color: #121212;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.flowers-description,
+.Latest-Deal-descriptaion {
+    color: #707070;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    display: flex;
+    width: 691px;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.flowers-card {
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 260px;
+}
+
+.first-flower-bg {
+    background-image: url("/bg/bg-1.png");
+    background-repeat: no-repeat;
+    /* background-size: 100% 100%; */
+    margin: 25px;
+
+}
+
+.second-flower-bg {
+    background-image: url("/bg/bg-2.png");
+    background-repeat: no-repeat;
+    /* background-size: 100% 100%; */
+    margin: 25px;
+
+}
+
+.third-flower-bg {
+    background-image: url("/bg/bg-3.png");
+    background-repeat: no-repeat;
+    /* background-size: 100% 100%; */
+    margin: 25px;
+
+}
+
+.flower-name {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    /* text-decoration-line: underline; */
+}
+
+.images {
+    width: 310px;
+    height: 428px;
+    padding: 110px 80px 0 80px;
+}
+
+#images {
+    margin: 100px 480px 100px 80px;
+}
+
+
+/* Hot dealing section*/
+
+.Hot-dealing-section {
+    display: flex;
+    background: rgba(229, 84, 115, 0.10);
+    width: 100%;
+    height: 850px;
+    margin-bottom: 80px;
+
+}
+
+.Hot-dealing-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.Hot-dealing-section-left-part {
+    text-align: center;
+    margin: 300px 0 150px 400px;
+    color: white;
+}
+
+.Hot-dealing-title {
+    color: #121212;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+
+/* latest deals */
+.Latest-Deal-update {
+    width: 1440px;
+    height: 449px;
+    background-image: url("/bg/Bg-image.png");
+    background-repeat: no-repeat;
+    margin: 120px auto 20px auto;
+}
+
+.updated-mail {
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(39, 39, 39, 0.60);
+    width: 500px;
+    height: 64px;
+    border: 0;
+    margin: 0;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.position-center {
+    margin: 20px 200px 120px 370px;
+}
+
+.Latest-Deal-title {
+    padding: 120px 0 0 0;
+}
+
+/* Extra part */
+
+/* .Primary {
+    background-color: #EBEBEB;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 30px 0;
+
+    
+}
+.Primary a img{
+    margin: 0 40px;
+} */
+
+
+/* Footer */
+
+.footer {
+    text-align: center;
+    margin: 120px 0 0 0;
+    background: #111010;
+    width: 100%;
+    height: 449px;
+    position: relative;
+}
+
+.footer-section {
+    position: absolute;
+    margin: 170px 700px 0;
+}
+
+#color-text {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 20px;
+
+}
+
+#text-color {
+    color: #FFFFFF;
+}
+
+footer p {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+#copy-write {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+}
