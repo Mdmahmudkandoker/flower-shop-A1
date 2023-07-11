@@ -76,33 +76,30 @@
     margin: 0 auto;
 }
 
-.flowers-card {
+.flowers-card,
+.coustomar-support {
     display: flex;
     justify-content: space-around;
     margin: 60px 260px;
 }
 
-.first-flower-bg {
-    background-image: url("/bg/bg-1.png");
-    background-repeat: no-repeat;
-    /* background-size: 100% 100%; */
-    margin: 25px;
+.first-flower-bg,
+.second-flower-bg,
+.third-flower-bg {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    margin: 55px;
 
 }
 
 .second-flower-bg {
-    background-image: url("/bg/bg-2.png");
-    background-repeat: no-repeat;
-    /* background-size: 100% 100%; */
-    margin: 25px;
-
+    background: rgba(5, 151, 160, 0.15);
 }
 
 .third-flower-bg {
-    background-image: url("/bg/bg-3.png");
-    background-repeat: no-repeat;
-    /* background-size: 100% 100%; */
-    margin: 25px;
+    background: rgba(71, 125, 17, 0.15);
 
 }
 
@@ -125,6 +122,33 @@
     margin: 100px 480px 100px 80px;
 }
 
+/* support section part */
+
+.coustomar-support {
+    width: 71%;
+    margin: 60px 330px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+.support-type{
+    color: #707070;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.alignment-center {
+    margin: 0 100px 0 100px;
+    padding: 90px 120px 90px 120px;
+}
+
+.support-img {
+    padding: 0 50px;
+    text-align: center;
+}
+
+
 
 /* Hot dealing section*/
 
@@ -135,6 +159,10 @@
     height: 850px;
     margin-bottom: 80px;
 
+}
+
+#color-off{
+    color: #E55473;
 }
 
 .Hot-dealing-description {
@@ -188,23 +216,39 @@
     padding: 120px 0 0 0;
 }
 
-/* Extra part */
+/* Extra part section starts*/
 
-/* .Primary {
-    background-color: #EBEBEB;
+.Exclusive-Gifts {
     display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    padding: 30px 0;
-
-    
+    justify-content: space-around;
+    margin: 60px 330px;
 }
-.Primary a img{
+
+.Exclusive-Gifts-description {
+    color: #707070;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.Exclusive-Gifts-title {
+    text-align: center;
+    margin: 50px auto;
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.Primary a img {
     margin: 0 40px;
-} */
+}
+
+/* Extra part section ends */
 
 
-/* Footer */
+/* Footer section starts*/
 
 .footer {
     text-align: center;
@@ -244,3 +288,5 @@ footer p {
     font-size: 16px;
     font-weight: 400;
 }
+
+/* footer section ends */
